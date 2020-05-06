@@ -1,0 +1,1 @@
+your_project zebra.pgm

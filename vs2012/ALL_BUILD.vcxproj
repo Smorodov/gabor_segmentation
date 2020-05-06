@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{26051988-E0A4-476D-A5FD-B9FB218B4303}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract;E:\Documents\Visual Studio 2012\Projects\Opencv_64;E:\Documents\opencv-master\include;E:\Documents\opencv-master\include\opencv;E:\Documents\opencv-master\modules\cudev\include;E:\Documents\opencv-master\modules\core\include;E:\Documents\opencv-master\modules\cudaarithm\include;E:\Documents\opencv-master\modules\flann\include;E:\Documents\opencv-master\modules\imgproc\include;E:\Documents\opencv-master\modules\ml\include;E:\Documents\opencv_contrib-master\modules\reg\include;E:\Documents\opencv_contrib-master\modules\surface_matching\include;E:\Documents\opencv-master\modules\video\include;E:\Documents\opencv-master\modules\cudabgsegm\include;E:\Documents\opencv-master\modules\cudafilters\include;E:\Documents\opencv-master\modules\cudaimgproc\include;E:\Documents\opencv-master\modules\cudawarping\include;E:\Documents\opencv_contrib-master\modules\face\include;E:\Documents\opencv-master\modules\imgcodecs\include;E:\Documents\opencv-master\modules\photo\include;E:\Documents\opencv-master\modules\shape\include;E:\Documents\opencv-master\modules\videoio\include;E:\Documents\opencv-master\modules\cudacodec\include;E:\Documents\opencv-master\modules\highgui\include;E:\Documents\opencv-master\modules\objdetect\include;E:\Documents\opencv_contrib-master\modules\optflow\include;E:\Documents\opencv_contrib-master\modules\tracking\include;E:\Documents\opencv-master\modules\ts\include;E:\Documents\opencv_contrib-master\modules\ximgproc\include;E:\Documents\opencv_contrib-master\modules\xobjdetect\include;E:\Documents\opencv_contrib-master\modules\xphoto\include;E:\Documents\opencv_contrib-master\modules\adas\include;E:\Documents\opencv_contrib-master\modules\bgsegm\include;E:\Documents\opencv_contrib-master\modules\bioinspired\include;E:\Documents\opencv-master\modules\features2d\include;E:\Documents\opencv_contrib-master\modules\latentsvm\include;E:\Documents\opencv_contrib-master\modules\line_descriptor\include;E:\Documents\opencv_contrib-master\modules\saliency\include;E:\Documents\opencv_contrib-master\modules\text\include;E:\Documents\opencv-master\modules\calib3d\include;E:\Documents\opencv_contrib-master\modules\ccalib\include;E:\Documents\opencv-master\modules\cudafeatures2d\include;E:\Documents\opencv-master\modules\cudalegacy\include;E:\Documents\opencv-master\modules\cudaobjdetect\include;E:\Documents\opencv-master\modules\cudaoptflow\include;E:\Documents\opencv-master\modules\cudastereo\include;E:\Documents\opencv_contrib-master\modules\datasets\include;E:\Documents\opencv_contrib-master\modules\rgbd\include;E:\Documents\opencv-master\modules\superres\include;E:\Documents\opencv-master\modules\videostab\include;E:\Documents\opencv_contrib-master\modules\xfeatures2d\include;E:\Documents\opencv-master\modules\stitching\include;E:\Documents\opencv_contrib-master\modules\matlab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract;E:\Documents\Visual Studio 2012\Projects\Opencv_64;E:\Documents\opencv-master\include;E:\Documents\opencv-master\include\opencv;E:\Documents\opencv-master\modules\cudev\include;E:\Documents\opencv-master\modules\core\include;E:\Documents\opencv-master\modules\cudaarithm\include;E:\Documents\opencv-master\modules\flann\include;E:\Documents\opencv-master\modules\imgproc\include;E:\Documents\opencv-master\modules\ml\include;E:\Documents\opencv_contrib-master\modules\reg\include;E:\Documents\opencv_contrib-master\modules\surface_matching\include;E:\Documents\opencv-master\modules\video\include;E:\Documents\opencv-master\modules\cudabgsegm\include;E:\Documents\opencv-master\modules\cudafilters\include;E:\Documents\opencv-master\modules\cudaimgproc\include;E:\Documents\opencv-master\modules\cudawarping\include;E:\Documents\opencv_contrib-master\modules\face\include;E:\Documents\opencv-master\modules\imgcodecs\include;E:\Documents\opencv-master\modules\photo\include;E:\Documents\opencv-master\modules\shape\include;E:\Documents\opencv-master\modules\videoio\include;E:\Documents\opencv-master\modules\cudacodec\include;E:\Documents\opencv-master\modules\highgui\include;E:\Documents\opencv-master\modules\objdetect\include;E:\Documents\opencv_contrib-master\modules\optflow\include;E:\Documents\opencv_contrib-master\modules\tracking\include;E:\Documents\opencv-master\modules\ts\include;E:\Documents\opencv_contrib-master\modules\ximgproc\include;E:\Documents\opencv_contrib-master\modules\xobjdetect\include;E:\Documents\opencv_contrib-master\modules\xphoto\include;E:\Documents\opencv_contrib-master\modules\adas\include;E:\Documents\opencv_contrib-master\modules\bgsegm\include;E:\Documents\opencv_contrib-master\modules\bioinspired\include;E:\Documents\opencv-master\modules\features2d\include;E:\Documents\opencv_contrib-master\modules\latentsvm\include;E:\Documents\opencv_contrib-master\modules\line_descriptor\include;E:\Documents\opencv_contrib-master\modules\saliency\include;E:\Documents\opencv_contrib-master\modules\text\include;E:\Documents\opencv-master\modules\calib3d\include;E:\Documents\opencv_contrib-master\modules\ccalib\include;E:\Documents\opencv-master\modules\cudafeatures2d\include;E:\Documents\opencv-master\modules\cudalegacy\include;E:\Documents\opencv-master\modules\cudaobjdetect\include;E:\Documents\opencv-master\modules\cudaoptflow\include;E:\Documents\opencv-master\modules\cudastereo\include;E:\Documents\opencv_contrib-master\modules\datasets\include;E:\Documents\opencv_contrib-master\modules\rgbd\include;E:\Documents\opencv-master\modules\superres\include;E:\Documents\opencv-master\modules\videostab\include;E:\Documents\opencv_contrib-master\modules\xfeatures2d\include;E:\Documents\opencv-master\modules\stitching\include;E:\Documents\opencv_contrib-master\modules\matlab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract;E:\Documents\Visual Studio 2012\Projects\Opencv_64;E:\Documents\opencv-master\include;E:\Documents\opencv-master\include\opencv;E:\Documents\opencv-master\modules\cudev\include;E:\Documents\opencv-master\modules\core\include;E:\Documents\opencv-master\modules\cudaarithm\include;E:\Documents\opencv-master\modules\flann\include;E:\Documents\opencv-master\modules\imgproc\include;E:\Documents\opencv-master\modules\ml\include;E:\Documents\opencv_contrib-master\modules\reg\include;E:\Documents\opencv_contrib-master\modules\surface_matching\include;E:\Documents\opencv-master\modules\video\include;E:\Documents\opencv-master\modules\cudabgsegm\include;E:\Documents\opencv-master\modules\cudafilters\include;E:\Documents\opencv-master\modules\cudaimgproc\include;E:\Documents\opencv-master\modules\cudawarping\include;E:\Documents\opencv_contrib-master\modules\face\include;E:\Documents\opencv-master\modules\imgcodecs\include;E:\Documents\opencv-master\modules\photo\include;E:\Documents\opencv-master\modules\shape\include;E:\Documents\opencv-master\modules\videoio\include;E:\Documents\opencv-master\modules\cudacodec\include;E:\Documents\opencv-master\modules\highgui\include;E:\Documents\opencv-master\modules\objdetect\include;E:\Documents\opencv_contrib-master\modules\optflow\include;E:\Documents\opencv_contrib-master\modules\tracking\include;E:\Documents\opencv-master\modules\ts\include;E:\Documents\opencv_contrib-master\modules\ximgproc\include;E:\Documents\opencv_contrib-master\modules\xobjdetect\include;E:\Documents\opencv_contrib-master\modules\xphoto\include;E:\Documents\opencv_contrib-master\modules\adas\include;E:\Documents\opencv_contrib-master\modules\bgsegm\include;E:\Documents\opencv_contrib-master\modules\bioinspired\include;E:\Documents\opencv-master\modules\features2d\include;E:\Documents\opencv_contrib-master\modules\latentsvm\include;E:\Documents\opencv_contrib-master\modules\line_descriptor\include;E:\Documents\opencv_contrib-master\modules\saliency\include;E:\Documents\opencv_contrib-master\modules\text\include;E:\Documents\opencv-master\modules\calib3d\include;E:\Documents\opencv_contrib-master\modules\ccalib\include;E:\Documents\opencv-master\modules\cudafeatures2d\include;E:\Documents\opencv-master\modules\cudalegacy\include;E:\Documents\opencv-master\modules\cudaobjdetect\include;E:\Documents\opencv-master\modules\cudaoptflow\include;E:\Documents\opencv-master\modules\cudastereo\include;E:\Documents\opencv_contrib-master\modules\datasets\include;E:\Documents\opencv_contrib-master\modules\rgbd\include;E:\Documents\opencv-master\modules\superres\include;E:\Documents\opencv-master\modules\videostab\include;E:\Documents\opencv_contrib-master\modules\xfeatures2d\include;E:\Documents\opencv-master\modules\stitching\include;E:\Documents\opencv_contrib-master\modules\matlab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract;E:\Documents\Visual Studio 2012\Projects\Opencv_64;E:\Documents\opencv-master\include;E:\Documents\opencv-master\include\opencv;E:\Documents\opencv-master\modules\cudev\include;E:\Documents\opencv-master\modules\core\include;E:\Documents\opencv-master\modules\cudaarithm\include;E:\Documents\opencv-master\modules\flann\include;E:\Documents\opencv-master\modules\imgproc\include;E:\Documents\opencv-master\modules\ml\include;E:\Documents\opencv_contrib-master\modules\reg\include;E:\Documents\opencv_contrib-master\modules\surface_matching\include;E:\Documents\opencv-master\modules\video\include;E:\Documents\opencv-master\modules\cudabgsegm\include;E:\Documents\opencv-master\modules\cudafilters\include;E:\Documents\opencv-master\modules\cudaimgproc\include;E:\Documents\opencv-master\modules\cudawarping\include;E:\Documents\opencv_contrib-master\modules\face\include;E:\Documents\opencv-master\modules\imgcodecs\include;E:\Documents\opencv-master\modules\photo\include;E:\Documents\opencv-master\modules\shape\include;E:\Documents\opencv-master\modules\videoio\include;E:\Documents\opencv-master\modules\cudacodec\include;E:\Documents\opencv-master\modules\highgui\include;E:\Documents\opencv-master\modules\objdetect\include;E:\Documents\opencv_contrib-master\modules\optflow\include;E:\Documents\opencv_contrib-master\modules\tracking\include;E:\Documents\opencv-master\modules\ts\include;E:\Documents\opencv_contrib-master\modules\ximgproc\include;E:\Documents\opencv_contrib-master\modules\xobjdetect\include;E:\Documents\opencv_contrib-master\modules\xphoto\include;E:\Documents\opencv_contrib-master\modules\adas\include;E:\Documents\opencv_contrib-master\modules\bgsegm\include;E:\Documents\opencv_contrib-master\modules\bioinspired\include;E:\Documents\opencv-master\modules\features2d\include;E:\Documents\opencv_contrib-master\modules\latentsvm\include;E:\Documents\opencv_contrib-master\modules\line_descriptor\include;E:\Documents\opencv_contrib-master\modules\saliency\include;E:\Documents\opencv_contrib-master\modules\text\include;E:\Documents\opencv-master\modules\calib3d\include;E:\Documents\opencv_contrib-master\modules\ccalib\include;E:\Documents\opencv-master\modules\cudafeatures2d\include;E:\Documents\opencv-master\modules\cudalegacy\include;E:\Documents\opencv-master\modules\cudaobjdetect\include;E:\Documents\opencv-master\modules\cudaoptflow\include;E:\Documents\opencv-master\modules\cudastereo\include;E:\Documents\opencv_contrib-master\modules\datasets\include;E:\Documents\opencv_contrib-master\modules\rgbd\include;E:\Documents\opencv-master\modules\superres\include;E:\Documents\opencv-master\modules\videostab\include;E:\Documents\opencv_contrib-master\modules\xfeatures2d\include;E:\Documents\opencv-master\modules\stitching\include;E:\Documents\opencv_contrib-master\modules\matlab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HE:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract" "-BE:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/vs2012" --check-stamp-file "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/CMakeLists.txt;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\CMakeLists.txt;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\3.1.0-rc2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInitialize.cmake;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\3.1.0-rc2\CMakeCCompiler.cmake;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\3.1.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\3.1.0-rc2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;E:\Documents\Visual Studio 2012\Projects\Opencv_64\OpenCVConfig-version.cmake;E:\Documents\Visual Studio 2012\Projects\Opencv_64\OpenCVConfig.cmake;E:\Documents\Visual Studio 2012\Projects\Opencv_64\OpenCVModules.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HE:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract" "-BE:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/vs2012" --check-stamp-file "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/CMakeLists.txt;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\CMakeLists.txt;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\3.1.0-rc2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInitialize.cmake;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\3.1.0-rc2\CMakeCCompiler.cmake;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\3.1.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\3.1.0-rc2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;E:\Documents\Visual Studio 2012\Projects\Opencv_64\OpenCVConfig-version.cmake;E:\Documents\Visual Studio 2012\Projects\Opencv_64\OpenCVConfig.cmake;E:\Documents\Visual Studio 2012\Projects\Opencv_64\OpenCVModules.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HE:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract" "-BE:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/vs2012" --check-stamp-file "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/CMakeLists.txt;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\CMakeLists.txt;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\3.1.0-rc2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInitialize.cmake;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\3.1.0-rc2\CMakeCCompiler.cmake;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\3.1.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\3.1.0-rc2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;E:\Documents\Visual Studio 2012\Projects\Opencv_64\OpenCVConfig-version.cmake;E:\Documents\Visual Studio 2012\Projects\Opencv_64\OpenCVConfig.cmake;E:\Documents\Visual Studio 2012\Projects\Opencv_64\OpenCVModules.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HE:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract" "-BE:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/vs2012" --check-stamp-file "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/CMakeLists.txt;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\CMakeLists.txt;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\3.1.0-rc2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInitialize.cmake;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\3.1.0-rc2\CMakeCCompiler.cmake;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\3.1.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\3.1.0-rc2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;E:\Documents\Visual Studio 2012\Projects\Opencv_64\OpenCVConfig-version.cmake;E:\Documents\Visual Studio 2012\Projects\Opencv_64\OpenCVConfig.cmake;E:\Documents\Visual Studio 2012\Projects\Opencv_64\OpenCVModules.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/vs2012/ZERO_CHECK.vcxproj">
+      <Project>76644903-0F1F-4EE3-86AA-FC3A6B9933AF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/vs2012/your_project.vcxproj">
+      <Project>73964BB5-898A-496A-944E-2154A8D65828</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

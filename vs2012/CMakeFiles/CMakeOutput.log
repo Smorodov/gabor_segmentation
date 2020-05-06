@@ -1,0 +1,243 @@
+The system is: Windows - 6.1 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine версии 4.0.30319.34209
+[Microsoft .NET Framework версии 4.0.30319.34209]
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 11.06.2015 18:26:21.
+Проект "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\3.1.0-rc2\CompilerIdC\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "Debug\".
+InitializeBuildStatus:
+  Создание "Debug\CompilerIdC.unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\3.1.0-rc2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Файл "Debug\CompilerIdC.unsuccessfulbuild" удаляется.
+  Обращение к "Debug\CompilerIdC.lastbuildstate".
+Построение проекта "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\3.1.0-rc2\CompilerIdC\CompilerIdC.vcxproj" завершено (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.81
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/vs2012/CMakeFiles/3.1.0-rc2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine версии 4.0.30319.34209
+[Microsoft .NET Framework версии 4.0.30319.34209]
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 11.06.2015 18:26:22.
+Проект "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\3.1.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "Debug\".
+InitializeBuildStatus:
+  Создание "Debug\CompilerIdCXX.unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\3.1.0-rc2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Файл "Debug\CompilerIdCXX.unsuccessfulbuild" удаляется.
+  Обращение к "Debug\CompilerIdCXX.lastbuildstate".
+Построение проекта "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\3.1.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" завершено (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.55
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/vs2012/CMakeFiles/3.1.0-rc2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/vs2012/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec1859155538.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine версии 4.0.30319.34209
+[Microsoft .NET Framework версии 4.0.30319.34209]
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 11.06.2015 18:26:23.
+Проект "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\cmTryCompileExec1859155538.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTryCompileExec1859155538.dir\Debug\".
+  Создание каталога "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Создание "cmTryCompileExec1859155538.dir\Debug\cmTryCompileExec1859155538.unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1859155538.dir\Debug\\" /Fd"cmTryCompileExec1859155538.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1859155538.dir\Debug\\" /Fd"cmTryCompileExec1859155538.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1859155538.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/vs2012/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1859155538.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/vs2012/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1859155538.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec1859155538.dir\Debug\testCCompiler.obj
+  cmTryCompileExec1859155538.vcxproj -> E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1859155538.exe
+FinalizeBuildStatus:
+  Файл "cmTryCompileExec1859155538.dir\Debug\cmTryCompileExec1859155538.unsuccessfulbuild" удаляется.
+  Обращение к "cmTryCompileExec1859155538.dir\Debug\cmTryCompileExec1859155538.lastbuildstate".
+Построение проекта "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\cmTryCompileExec1859155538.vcxproj" завершено (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.77
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/vs2012/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec829944048.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine версии 4.0.30319.34209
+[Microsoft .NET Framework версии 4.0.30319.34209]
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 11.06.2015 18:26:24.
+Проект "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\cmTryCompileExec829944048.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTryCompileExec829944048.dir\Debug\".
+  Создание каталога "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Создание "cmTryCompileExec829944048.dir\Debug\cmTryCompileExec829944048.unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec829944048.dir\Debug\\" /Fd"cmTryCompileExec829944048.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec829944048.dir\Debug\\" /Fd"cmTryCompileExec829944048.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec829944048.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/vs2012/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec829944048.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/vs2012/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec829944048.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec829944048.dir\Debug\CMakeCCompilerABI.obj
+  cmTryCompileExec829944048.vcxproj -> E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec829944048.exe
+FinalizeBuildStatus:
+  Файл "cmTryCompileExec829944048.dir\Debug\cmTryCompileExec829944048.unsuccessfulbuild" удаляется.
+  Обращение к "cmTryCompileExec829944048.dir\Debug\cmTryCompileExec829944048.lastbuildstate".
+Построение проекта "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\cmTryCompileExec829944048.vcxproj" завершено (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.50
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/vs2012/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec1095357103.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine версии 4.0.30319.34209
+[Microsoft .NET Framework версии 4.0.30319.34209]
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 11.06.2015 18:26:24.
+Проект "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\cmTryCompileExec1095357103.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTryCompileExec1095357103.dir\Debug\".
+  Создание каталога "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Создание "cmTryCompileExec1095357103.dir\Debug\cmTryCompileExec1095357103.unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1095357103.dir\Debug\\" /Fd"cmTryCompileExec1095357103.dir\Debug\vc110.pdb" /Gd /TP /errorReport:queue "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1095357103.dir\Debug\\" /Fd"cmTryCompileExec1095357103.dir\Debug\vc110.pdb" /Gd /TP /errorReport:queue "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1095357103.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/vs2012/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1095357103.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/vs2012/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1095357103.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec1095357103.dir\Debug\testCXXCompiler.obj
+  cmTryCompileExec1095357103.vcxproj -> E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1095357103.exe
+FinalizeBuildStatus:
+  Файл "cmTryCompileExec1095357103.dir\Debug\cmTryCompileExec1095357103.unsuccessfulbuild" удаляется.
+  Обращение к "cmTryCompileExec1095357103.dir\Debug\cmTryCompileExec1095357103.lastbuildstate".
+Построение проекта "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\cmTryCompileExec1095357103.vcxproj" завершено (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.51
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/vs2012/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec3271600465.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine версии 4.0.30319.34209
+[Microsoft .NET Framework версии 4.0.30319.34209]
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 11.06.2015 18:26:25.
+Проект "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\cmTryCompileExec3271600465.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTryCompileExec3271600465.dir\Debug\".
+  Создание каталога "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Создание "cmTryCompileExec3271600465.dir\Debug\cmTryCompileExec3271600465.unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3271600465.dir\Debug\\" /Fd"cmTryCompileExec3271600465.dir\Debug\vc110.pdb" /Gd /TP /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3271600465.dir\Debug\\" /Fd"cmTryCompileExec3271600465.dir\Debug\vc110.pdb" /Gd /TP /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3271600465.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/vs2012/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3271600465.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/vs2012/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3271600465.lib" /MACHINE:X64  /machine:x64 /debug cmTryCompileExec3271600465.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTryCompileExec3271600465.vcxproj -> E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3271600465.exe
+FinalizeBuildStatus:
+  Файл "cmTryCompileExec3271600465.dir\Debug\cmTryCompileExec3271600465.unsuccessfulbuild" удаляется.
+  Обращение к "cmTryCompileExec3271600465.dir\Debug\cmTryCompileExec3271600465.lastbuildstate".
+Построение проекта "E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\vs2012\CMakeFiles\CMakeTmp\cmTryCompileExec3271600465.vcxproj" завершено (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:00.53
+
+

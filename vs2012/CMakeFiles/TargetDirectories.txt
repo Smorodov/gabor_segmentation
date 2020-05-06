@@ -1,0 +1,3 @@
+E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/vs2012/CMakeFiles/ALL_BUILD.dir
+E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/vs2012/CMakeFiles/your_project.dir
+E:/Documents/Visual Studio 2012/Projects/GaborFeaturesExtract/vs2012/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\cvgabor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\gabor_extract.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\cvgabor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Documents\Visual Studio 2012\Projects\GaborFeaturesExtract\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2B68B26D-E607-4B3F-B592-587C1531F785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{55FE1E44-C957-4A0E-B77A-1C7995864967}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
